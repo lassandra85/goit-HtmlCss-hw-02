@@ -31,26 +31,42 @@ a:focus {
   color: var(--pressed-state);
 }
 
-h1,
-h2,
-h3 {
-  color: var(--dark-color);
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  text-align: center;
+
+  color: var(--white-bg-color);
 }
 
 h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.72;
+  letter-spacing: 0.02em;
 
   text-align: center;
+
+  color: var(--dark-color);
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.4;
+  letter-spacing: 0.02em;
+
+  text-transform: capitalize;
+
+  color: var(--dark-color);
+}
+
+button:hover,
+button:focus {
+  color: var(--pressed-state);
 }
 
 .header {
@@ -96,16 +112,8 @@ h3 {
   background-color: var(--dark-color);
 }
 
-.hero-title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 1.12px;
-
-  color: var(--white-bg-color);
-}
-
 .hero-btn {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
 
@@ -118,6 +126,14 @@ h3 {
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--pressed-state);
+}
+
+.team {
+  background-color: var(--light-color);
+}
+
+.team-list {
+  background-color: var(--white-bg-color);
 }
 
 .footer {
