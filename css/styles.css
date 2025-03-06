@@ -121,7 +121,7 @@ h3 {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--pressed-state);
+  background-color: var(--pressed-state);
 }
 
 .team {
