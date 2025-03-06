@@ -62,8 +62,9 @@ h3 {
 
   font-weight: bold;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
+  text-transform: uppercase;
 
   color: var(--primary-brand);
 }
@@ -80,13 +81,15 @@ h3 {
   color: var(--dark-color);
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .address-link {
   line-height: 1.5;
   letter-spacing: 0.32px;
 
   color: var(--text-color);
-
-  font-style: normal;
 }
 
 .hero {
