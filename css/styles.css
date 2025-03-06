@@ -65,6 +65,11 @@ h3 {
   color: var(--dark-color);
 }
 
+button:hover,
+button:focus {
+  color: var(--pressed-state);
+}
+
 .header {
   background-color: var(--accent-color);
 }
@@ -117,11 +122,6 @@ h3 {
   background-color: var(--primary-brand);
 
   cursor: pointer;
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--pressed-state);
 }
 
 .team {
