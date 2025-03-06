@@ -65,11 +65,6 @@ h3 {
   color: var(--dark-color);
 }
 
-button:hover,
-button:focus {
-  color: var(--pressed-state);
-}
-
 .header {
   background-color: var(--accent-color);
 }
@@ -116,12 +111,17 @@ button:focus {
 .hero-btn {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 
   color: var(--white-bg-color);
   background-color: var(--primary-brand);
 
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--pressed-state);
 }
 
 .team {
