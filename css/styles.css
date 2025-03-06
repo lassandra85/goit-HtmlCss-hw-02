@@ -49,6 +49,7 @@ h2 {
   letter-spacing: 0.02em;
 
   text-align: center;
+  text-transform: capitalize;
 
   color: var(--dark-color);
 }
@@ -62,11 +63,6 @@ h3 {
   text-transform: capitalize;
 
   color: var(--dark-color);
-}
-
-button:hover,
-button:focus {
-  color: var(--pressed-state);
 }
 
 .header {
@@ -132,7 +128,7 @@ button:focus {
   background-color: var(--light-color);
 }
 
-.team-list {
+.team-item {
   background-color: var(--white-bg-color);
 }
 
